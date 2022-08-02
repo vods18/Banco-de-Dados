@@ -1,0 +1,1 @@
+select count(*) from (select c_custkey from customer EXCEPT select o_custkey from orders); 

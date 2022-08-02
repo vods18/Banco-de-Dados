@@ -1,0 +1,1 @@
+ select count(distinct o_orderkey) from orders where o_comment LIKE '%special request%' and o_comment NOT LIKE '%unusual package%'; 

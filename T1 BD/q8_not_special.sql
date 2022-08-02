@@ -1,0 +1,1 @@
+select count(o_comment) from orders where o_comment NOT LIKE '%special request%';
